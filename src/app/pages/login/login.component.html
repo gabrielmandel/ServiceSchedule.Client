@@ -1,0 +1,17 @@
+<div class="body"></div>
+
+<div class="grad"></div>
+
+<div class="header">
+    <div>Service<span>Scheduler</span></div>
+</div>
+
+<br>
+
+<div class="login">
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+        <input type="text" placeholder="Login" name="user" formControlName="username"><br>
+        <input type="password" placeholder="Password" formControlName="password"><br>
+        <button type="submit">Login</button>
+    </form>
+</div>

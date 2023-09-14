@@ -1,0 +1,45 @@
+.menu-buttons{
+    background-color: blueviolet;
+    margin: 2px;
+}
+
+.sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+}
+
+.content{
+    background-color: lightgray;
+    padding: 12px;
+    height: 100%;
+}
+
+mat-sidenav {
+    text-align: center;
+    width: 230px;
+    background-color: #1e2936;
+    color: #fff;
+}
+
+
+.mat-button-toggle-checked{
+    background-color: lightgray;
+}
+
+mat-button-toggle-group{
+    width: 100%;
+    border: none;
+}
+
+mat-button-toggle{
+    font-family: 'Roboto';
+    color: #fff;
+    width: 100%;
+    margin: 5px 0px;
+    background-color: transparent;
+    border: none !important;
+}
